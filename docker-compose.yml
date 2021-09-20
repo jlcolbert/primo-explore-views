@@ -1,0 +1,47 @@
+x-environment: &x-environment
+  PROXY_SERVER: https://unh-psb.primo.exlibrisgroup.com:443
+  VIEW: ${VIEW-01USNH_UNH-MAIN}
+  NODE_ENV: ${NODE_ENV-development}
+  VE: --ve
+  BROWSERIFY: --browserify
+  USESCSS: --useScss
+
+x-build: &x-build
+  build:
+    context: .
+    dockerfile: Dockerfile
+    cache_from:
+      - primo-explore-views
+      - jlcolbert/primo-explore-views
+      - https://hub.docker.com/repository/docker/jlcolbert/primo-explore-views
+x-ports: &x-ports
+  ports:
+    - 8003:8003
+    - 3001:3001
+
+version: "3.8"
+services:
+  # Dockerfile that uses production versions of dependencies from npm/yarn registries
+  # VIEW=[VIEW-NAME] NODE_ENV=[env] docker compose up web
+  web:
+    <<: *x-build
+    image: primo-explore-views
+    <<: *x-ports
+    environment:
+      <<: *x-environment
+    volumes:
+      - ./custom:/app/primo-explore/custom/
+
+  # Creates VIEW packages using production version dependencies
+  # Builds to /app/packages
+  # VIEW=[VIEW-NAME] NODE_ENV=[env] docker compose run create-package
+  create-package:
+    <<: *x-build
+    image: primo-explore-views
+    environment:
+      <<: *x-environment
+      NODE_ENV: ${NODE_ENV-staging}
+    command: yarn build
+    volumes:
+      - ./packages/:/app/packages
+      - ./custom:/app/primo-explore/custom/

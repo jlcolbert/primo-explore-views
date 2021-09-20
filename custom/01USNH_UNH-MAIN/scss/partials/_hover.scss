@@ -1,0 +1,35 @@
+prm-facet-exact {
+  .section-title {
+    prm-icon {
+      color: #3a3a3a;
+    }
+    &:focus {
+      span {
+        color: #001d52;
+      }
+    }
+    &:hover {
+      span {
+        color: #001d52;
+      }
+    }
+  }
+}
+
+prm-facet-range {
+  .section-title {
+    prm-icon {
+      color: #3a3a3a;
+    }
+    &:focus {
+      span {
+        color: #001d52;
+      }
+    }
+    &:hover {
+      span {
+        color: #001d52;
+      }
+    }
+  }
+}
