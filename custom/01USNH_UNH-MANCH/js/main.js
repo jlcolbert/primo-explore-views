@@ -1,6 +1,7 @@
 import "@orbis-cascade/primo-explore-external-search";
-import "primo-explore-help-menu";
 import "primo-explore-lod-author-card";
+
+import "./components/helpMenu/helpMenu.module";
 
 import ExternalSearchConfig from "./components/externalSearch/externalSearch.config";
 import HelpMenuConfig from "./components/helpMenu/helpMenu.config";

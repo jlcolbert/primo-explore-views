@@ -11,7 +11,6 @@
   "license": "ISC",
   "devDependencies": {
     "@orbis-cascade/primo-explore-external-search": "^1.2.0",
-    "primo-explore-help-menu": "^1.6.3",
     "primo-explore-lod-author-card": "^0.0.6"
   }
 }

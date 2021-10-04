@@ -1,5 +1,5 @@
 /* primary color hook */
-/* commenttttt*/
+/* comment*/
 /* primary color hook end*/
 .md-button {
   color: #3a3a3a;
@@ -1865,194 +1865,115 @@ prm-main-menu[menu-type="full"] {
     background-color: #0044bb;
   }
 }
+/* magnifying glass and load more */
 .md-button.button-confirm {
-  color: #0c6600;
-  color: #0b5c00;
+  color: #263645;
   &:hover {
     &:not([disabled]) {
-      color: white;
-      background-color: #0c6600;
+      color: #010304;
+      background-color: rgba(38, 54, 69, 0.1);
     }
   }
   &:focus {
     &:not([disabled]) {
-      color: white;
-      background-color: #0c6600;
+      color: #010304;
+      background-color: rgba(38, 54, 69, 0.1);
     }
   }
 }
 .service-form-static-panel {
   button.button-confirm {
-    prm-icon {
-      + {
-        span {
-          color: #0c6600;
-          color: #0b5c00;
-          &:hover {
-            &:not([disabled]) {
-              color: white;
-              background-color: #0c6600;
-            }
-          }
-          &:focus {
-            &:not([disabled]) {
-              color: white;
-              background-color: #0c6600;
-            }
-          }
-        }
-        span.hovered {
-          &:not([disabled]) {
-            color: white;
-            background-color: #0c6600;
-          }
-        }
-        span.md-focused {
-          &:not([disabled]) {
-            color: white;
-            background-color: #0c6600;
-          }
-        }
-        span._md-focused {
-          &:not([disabled]) {
-            color: white;
-            background-color: #0c6600;
-          }
+    prm-icon + span {
+      color: #263645;
+      &:hover {
+        &:not([disabled]) {
+          color: #010304;
+          background-color: rgba(38, 54, 69, 0.1);
         }
       }
+      &:focus {
+        &:not([disabled]) {
+          color: #010304;
+          background-color: rgba(38, 54, 69, 0.1);
+        }
+      }
+    }
+    prm-icon {
       svg {
         path {
-          color: #0c6600;
-          color: #0b5c00;
+          color: #263645;
           &:hover {
             &:not([disabled]) {
-              color: white;
-              background-color: #0c6600;
+              color: #010304;
+              background-color: rgba(38, 54, 69, 0.1);
             }
           }
           &:focus {
             &:not([disabled]) {
-              color: white;
-              background-color: #0c6600;
+              color: #010304;
+              background-color: rgba(38, 54, 69, 0.1);
             }
           }
         }
         path.hovered {
           &:not([disabled]) {
-            color: white;
-            background-color: #0c6600;
+            color: #010304;
+            background-color: rgba(38, 54, 69, 0.1);
           }
         }
         path.md-focused {
           &:not([disabled]) {
-            color: white;
-            background-color: #0c6600;
+            color: #010304;
+            background-color: rgba(38, 54, 69, 0.1);
           }
         }
         path._md-focused {
           &:not([disabled]) {
-            color: white;
-            background-color: #0c6600;
-          }
-        }
-        .light-on-dark-dialog {
-          path {
-            color: #33ffff;
-            &:hover {
-              &:not([disabled]) {
-                color: #003591;
-                background-color: white;
-              }
-            }
-            &:focus {
-              &:not([disabled]) {
-                color: #003591;
-                background-color: white;
-              }
-            }
-          }
-          path.hovered {
-            &:not([disabled]) {
-              color: #003591;
-              background-color: white;
-            }
-          }
-          path.md-focused {
-            &:not([disabled]) {
-              color: #003591;
-              background-color: white;
-            }
-          }
-          path._md-focused {
-            &:not([disabled]) {
-              color: #003591;
-              background-color: white;
-            }
+            color: #010304;
+            background-color: rgba(38, 54, 69, 0.1);
           }
         }
       }
     }
-    .light-on-dark-dialog {
-      prm-icon {
-        + {
-          span {
-            color: #33ffff;
-            &:hover {
-              &:not([disabled]) {
-                color: #003591;
-                background-color: white;
-              }
-            }
-            &:focus {
-              &:not([disabled]) {
-                color: #003591;
-                background-color: white;
-              }
-            }
-          }
-          span.hovered {
-            &:not([disabled]) {
-              color: #003591;
-              background-color: white;
-            }
-          }
-          span.md-focused {
-            &:not([disabled]) {
-              color: #003591;
-              background-color: white;
-            }
-          }
-          span._md-focused {
-            &:not([disabled]) {
-              color: #003591;
-              background-color: white;
-            }
-          }
-        }
+    prm-icon + span.hovered {
+      &:not([disabled]) {
+        color: #010304;
+        background-color: rgba(38, 54, 69, 0.1);
+      }
+    }
+    prm-icon + span.md-focused {
+      &:not([disabled]) {
+        color: #010304;
+        background-color: rgba(38, 54, 69, 0.1);
+      }
+    }
+    prm-icon + span._md-focused {
+      &:not([disabled]) {
+        color: #010304;
+        background-color: rgba(38, 54, 69, 0.1);
       }
     }
   }
-  background-color: #f8f8f8;
-  color: #f1f1f1;
 }
 .md-button.button-confirm.hovered {
   &:not([disabled]) {
-    color: white;
-    background-color: #0c6600;
+    color: #010304;
+    background-color: rgba(38, 54, 69, 0.1);
   }
 }
 .md-button.button-confirm.md-focused {
   &:not([disabled]) {
-    color: white;
-    background-color: #0c6600;
+    color: #010304;
+    background-color: rgba(38, 54, 69, 0.1);
   }
 }
 .md-button.button-confirm._md-focused {
   &:not([disabled]) {
-    color: white;
-    background-color: #0c6600;
+    color: #010304;
+    background-color: rgba(38, 54, 69, 0.1);
   }
 }
+
 .md-button.button-notice {
   color: #f77a05;
   &:hover {
@@ -5501,7 +5422,7 @@ prm-more-like-this {
 .prm-secondary-color.prm-hue4 {
   color: #003874;
 }
-prm-user-area-expandable {
+/*prm-user-area-expandable {
   .md-button.user-button {
     color: #f77a05;
     font-weight: bold;
@@ -5561,6 +5482,7 @@ prm-user-area-expandable {
     }
   }
 }
+*/
 .prm-secondary-color.prm-hue6 {
   color: #0055b1;
 }

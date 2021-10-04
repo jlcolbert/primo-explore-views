@@ -1,32 +1,12 @@
 const Updates = [
   {
-    id: "hathitrust-availability",
-    title: "'Print version unavailable for checkout'?",
-    description:
-      "the hathitrust emergency temporary access service (ETAS) allows online reading access to selected materials",
-    icon: { code: "link", group: "content" },
-    template: `
-      <p class="big-text"><strong>If books are found via a Library Search, the text "Print Version Unavailable for Checkout" will be displayed with the results. Those materials will all also contain links to the full text online (“Full Text Available at HathiTrust”).</strong></p>
-      <h3>How to Access Books via HathiTrust</h3>
-      <ol>
-        <li>Click "HathiTrust Emergency Temporary Access: Click here then login for access" to see the book in Hathitrust.</li>
-        <li>From anywhere on the HathiTrust website, click the yellow LOG IN button.</li>
-        <li>Find and select the University of New Hampshire in the list of partner institutions.</li>
-        <li>Log in with your UNH id and password.</li>
-        <li>When you have logged in, you will be returned to the book in HathiTrust.</li>
-      </ol>
-      <a href="https://libraryguides.unh.edu/hathitrust"><strong>To learn more about the Hathitrust Emergency Temporary Access Service, visit this Research Guide.</strong></a>
-      `,
-  },
-  {
     id: "visiting-the-libraries",
     title: "Remote Access",
     description:
-      "discussion of covid-related changes to bu libraries operation",
+      "discussion of covid-related changes to unh manchester libraries operation",
     icon: { code: "business", group: "communication" },
     template: `
-      <h2>Try Online First</h2>
-      <p>Many of our print books will not circulate during the pandemic. Try limiting your search to electronic items using the "Available Online" search profile.</p>
+      <h2>Remote Access</h2>
       <p>Our services, such as research help, are still available online. Ask a librarian for more help!.</p>
       <p><a href="https://libraryguides.unh.edu/remoteaccess">Visit our Remote Access Research Guide for more information about using library resources and services remotely.</a></p>
        `,

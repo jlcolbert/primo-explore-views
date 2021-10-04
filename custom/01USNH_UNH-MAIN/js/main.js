@@ -1,7 +1,8 @@
 import "@orbis-cascade/primo-explore-external-search";
-import "primo-explore-help-menu";
 import "primo-explore-search-bar-sub-menu";
 import "primo-explore-unpaywall";
+
+import "./components/helpMenu/helpMenu.module";
 
 import ExternalSearchConfig from "./components/externalSearch/externalSearch.config";
 import HelpMenuConfig from "./components/helpMenu/helpMenu.config";

@@ -41,7 +41,7 @@ EXPOSE 8003 3001
 :END:
 #+begin_src yaml
 x-environment: &x-environment
-  PROXY_SERVER: https://unh-psb.primo.exlibrisgroup.com:443
+  PROXY_SERVER: https://unh.primo.exlibrisgroup.com:443
   VIEW: ${VIEW-01USNH_UNH-MAIN}
   NODE_ENV: ${NODE_ENV-development}
   VE: --ve

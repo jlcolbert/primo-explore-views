@@ -1,5 +1,5 @@
 /* primary color hook */
-/* commenttttt*/
+/* comment*/
 /* primary color hook end*/
 .md-button {
   color: #3a3a3a;
@@ -1155,131 +1155,79 @@ prm-main-menu[menu-type=full] md-button .md-headline {
   background-color: #0044bb;
 }
 
+/* magnifying glass and load more */
 .md-button.button-confirm {
-  color: #0c6600;
-  color: #0b5c00;
+  color: #263645;
 }
 .md-button.button-confirm:hover:not([disabled]) {
-  color: white;
-  background-color: #0c6600;
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
 }
 .md-button.button-confirm:focus:not([disabled]) {
-  color: white;
-  background-color: #0c6600;
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
 }
 
-.service-form-static-panel {
-  background-color: #f8f8f8;
-  color: #f1f1f1;
-}
 .service-form-static-panel button.button-confirm prm-icon + span {
-  color: #0c6600;
-  color: #0b5c00;
+  color: #263645;
 }
 .service-form-static-panel button.button-confirm prm-icon + span:hover:not([disabled]) {
-  color: white;
-  background-color: #0c6600;
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
 }
 .service-form-static-panel button.button-confirm prm-icon + span:focus:not([disabled]) {
-  color: white;
-  background-color: #0c6600;
-}
-.service-form-static-panel button.button-confirm prm-icon + span.hovered:not([disabled]) {
-  color: white;
-  background-color: #0c6600;
-}
-.service-form-static-panel button.button-confirm prm-icon + span.md-focused:not([disabled]) {
-  color: white;
-  background-color: #0c6600;
-}
-.service-form-static-panel button.button-confirm prm-icon + span._md-focused:not([disabled]) {
-  color: white;
-  background-color: #0c6600;
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
 }
 .service-form-static-panel button.button-confirm prm-icon svg path {
-  color: #0c6600;
-  color: #0b5c00;
+  color: #263645;
 }
 .service-form-static-panel button.button-confirm prm-icon svg path:hover:not([disabled]) {
-  color: white;
-  background-color: #0c6600;
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
 }
 .service-form-static-panel button.button-confirm prm-icon svg path:focus:not([disabled]) {
-  color: white;
-  background-color: #0c6600;
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
 }
 .service-form-static-panel button.button-confirm prm-icon svg path.hovered:not([disabled]) {
-  color: white;
-  background-color: #0c6600;
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
 }
 .service-form-static-panel button.button-confirm prm-icon svg path.md-focused:not([disabled]) {
-  color: white;
-  background-color: #0c6600;
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
 }
 .service-form-static-panel button.button-confirm prm-icon svg path._md-focused:not([disabled]) {
-  color: white;
-  background-color: #0c6600;
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
 }
-.service-form-static-panel button.button-confirm prm-icon svg .light-on-dark-dialog path {
-  color: #33ffff;
+.service-form-static-panel button.button-confirm prm-icon + span.hovered:not([disabled]) {
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
 }
-.service-form-static-panel button.button-confirm prm-icon svg .light-on-dark-dialog path:hover:not([disabled]) {
-  color: #003591;
-  background-color: white;
+.service-form-static-panel button.button-confirm prm-icon + span.md-focused:not([disabled]) {
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
 }
-.service-form-static-panel button.button-confirm prm-icon svg .light-on-dark-dialog path:focus:not([disabled]) {
-  color: #003591;
-  background-color: white;
-}
-.service-form-static-panel button.button-confirm prm-icon svg .light-on-dark-dialog path.hovered:not([disabled]) {
-  color: #003591;
-  background-color: white;
-}
-.service-form-static-panel button.button-confirm prm-icon svg .light-on-dark-dialog path.md-focused:not([disabled]) {
-  color: #003591;
-  background-color: white;
-}
-.service-form-static-panel button.button-confirm prm-icon svg .light-on-dark-dialog path._md-focused:not([disabled]) {
-  color: #003591;
-  background-color: white;
-}
-.service-form-static-panel button.button-confirm .light-on-dark-dialog prm-icon + span {
-  color: #33ffff;
-}
-.service-form-static-panel button.button-confirm .light-on-dark-dialog prm-icon + span:hover:not([disabled]) {
-  color: #003591;
-  background-color: white;
-}
-.service-form-static-panel button.button-confirm .light-on-dark-dialog prm-icon + span:focus:not([disabled]) {
-  color: #003591;
-  background-color: white;
-}
-.service-form-static-panel button.button-confirm .light-on-dark-dialog prm-icon + span.hovered:not([disabled]) {
-  color: #003591;
-  background-color: white;
-}
-.service-form-static-panel button.button-confirm .light-on-dark-dialog prm-icon + span.md-focused:not([disabled]) {
-  color: #003591;
-  background-color: white;
-}
-.service-form-static-panel button.button-confirm .light-on-dark-dialog prm-icon + span._md-focused:not([disabled]) {
-  color: #003591;
-  background-color: white;
+.service-form-static-panel button.button-confirm prm-icon + span._md-focused:not([disabled]) {
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
 }
 
 .md-button.button-confirm.hovered:not([disabled]) {
-  color: white;
-  background-color: #0c6600;
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
 }
 
 .md-button.button-confirm.md-focused:not([disabled]) {
-  color: white;
-  background-color: #0c6600;
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
 }
 
 .md-button.button-confirm._md-focused:not([disabled]) {
-  color: white;
-  background-color: #0c6600;
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
 }
 
 .md-button.button-notice {
@@ -4040,32 +3988,67 @@ prm-more-like-this .section-title:focus prm-icon {
   color: #003874;
 }
 
-prm-user-area-expandable .md-button.user-button {
-  color: #f77a05;
-  font-weight: bold;
-  font-size: large;
-  text-transform: uppercase;
+/*prm-user-area-expandable {
+  .md-button.user-button {
+    color: #f77a05;
+    font-weight: bold;
+    font-size: large;
+    text-transform: uppercase;
+  }
 }
-
-+ prm-account-overview .main-institution-list .md-button:hover ._md-list-item-inner.is-selected .institution-name {
-  color: #003874;
++ {
+  prm-account-overview {
+    .main-institution-list {
+      .md-button {
+        &:hover {
+          ._md-list-item-inner.is-selected {
+            .institution-name {
+              color: #003874;
+            }
+          }
+          .md-list-item-inner.is-selected {
+            .institution-name {
+              color: #003874;
+            }
+          }
+        }
+      }
+    }
+    .md-list {
+      .md-button {
+        &:hover {
+          ._md-list-item-inner.is-selected {
+            .institution-name {
+              color: #003874;
+            }
+          }
+          .md-list-item-inner.is-selected {
+            .institution-name {
+              color: #003874;
+            }
+          }
+        }
+      }
+    }
+    .md-list[class$="-line"] {
+      .md-button {
+        &:hover {
+          ._md-list-item-inner.is-selected {
+            .institution-name {
+              color: #003874;
+            }
+          }
+          .md-list-item-inner.is-selected {
+            .institution-name {
+              color: #003874;
+            }
+          }
+        }
+      }
+    }
+  }
 }
-+ prm-account-overview .main-institution-list .md-button:hover .md-list-item-inner.is-selected .institution-name {
-  color: #003874;
-}
-+ prm-account-overview .md-list .md-button:hover ._md-list-item-inner.is-selected .institution-name {
-  color: #003874;
-}
-+ prm-account-overview .md-list .md-button:hover .md-list-item-inner.is-selected .institution-name {
-  color: #003874;
-}
-+ prm-account-overview .md-list[class$=-line] .md-button:hover ._md-list-item-inner.is-selected .institution-name {
-  color: #003874;
-}
-+ prm-account-overview .md-list[class$=-line] .md-button:hover .md-list-item-inner.is-selected .institution-name {
-  color: #003874;
-}
-
+*/
 .prm-secondary-color.prm-hue6 {
   color: #0055b1;
 }
@@ -7491,11 +7474,76 @@ prm-facet prm-organization-or-facet-toggle .md-button md-switch ._md-thumb {
 }
 
 /* magnifying glass and load more */
-.md-button.button-confirm, .service-form-static-panel button.button-confirm prm-icon + span, .service-form-static-panel button.button-confirm prm-icon svg path {
+.md-button.button-confirm {
   color: #263645;
 }
+.md-button.button-confirm:hover:not([disabled]) {
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
+}
+.md-button.button-confirm:focus:not([disabled]) {
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
+}
 
-.md-button.button-confirm:hover:not([disabled]), .service-form-static-panel button.button-confirm prm-icon + span:hover:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg path:hover:not([disabled]), .md-button.button-confirm:focus:not([disabled]), .service-form-static-panel button.button-confirm prm-icon + span:focus:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg path:focus:not([disabled]), .md-button.button-confirm.hovered:not([disabled]), .service-form-static-panel button.button-confirm prm-icon + span.hovered:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg path.hovered:not([disabled]), .md-button.button-confirm.md-focused:not([disabled]), .service-form-static-panel button.button-confirm prm-icon + span.md-focused:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg path.md-focused:not([disabled]), .md-button.button-confirm._md-focused:not([disabled]), .service-form-static-panel button.button-confirm prm-icon + span._md-focused:not([disabled]), .service-form-static-panel button.button-confirm prm-icon svg path._md-focused:not([disabled]) {
+.service-form-static-panel button.button-confirm prm-icon + span {
+  color: #263645;
+}
+.service-form-static-panel button.button-confirm prm-icon + span:hover:not([disabled]) {
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
+}
+.service-form-static-panel button.button-confirm prm-icon + span:focus:not([disabled]) {
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
+}
+.service-form-static-panel button.button-confirm prm-icon svg path {
+  color: #263645;
+}
+.service-form-static-panel button.button-confirm prm-icon svg path:hover:not([disabled]) {
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
+}
+.service-form-static-panel button.button-confirm prm-icon svg path:focus:not([disabled]) {
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
+}
+.service-form-static-panel button.button-confirm prm-icon svg path.hovered:not([disabled]) {
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
+}
+.service-form-static-panel button.button-confirm prm-icon svg path.md-focused:not([disabled]) {
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
+}
+.service-form-static-panel button.button-confirm prm-icon svg path._md-focused:not([disabled]) {
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
+}
+.service-form-static-panel button.button-confirm prm-icon + span.hovered:not([disabled]) {
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
+}
+.service-form-static-panel button.button-confirm prm-icon + span.md-focused:not([disabled]) {
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
+}
+.service-form-static-panel button.button-confirm prm-icon + span._md-focused:not([disabled]) {
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
+}
+
+.md-button.button-confirm.hovered:not([disabled]) {
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
+}
+
+.md-button.button-confirm.md-focused:not([disabled]) {
+  color: #010304;
+  background-color: rgba(38, 54, 69, 0.1);
+}
+
+.md-button.button-confirm._md-focused:not([disabled]) {
   color: #010304;
   background-color: rgba(38, 54, 69, 0.1);
 }
@@ -7572,7 +7620,17 @@ prm-facet-range .section-title:hover span {
 }
 
 @media (min-width: 1280px) and (max-width: 1919px) {
-  .flex-lg-10, .layout-row > .flex-lg-10 {
+  .flex-lg-10 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    max-width: 20%;
+    max-height: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .layout-row > .flex-lg-10 {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 100%;
     flex: 1 1 100%;
@@ -7592,12 +7650,23 @@ prm-facet-range .section-title:hover span {
   top: 40% !important;
 }
 
+/* @import "./partials/main-banner"; */
 div#mainMenu {
   margin-left: 40%;
 }
 
 @media (min-width: 1280px) and (max-width: 1919px) {
-  .flex-lg-25, .layout-row > .flex-lg-25 {
+  .flex-lg-25 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    max-width: 15%;
+    max-height: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .layout-row > .flex-lg-25 {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 100%;
     flex: 1 1 100%;
@@ -7670,6 +7739,32 @@ search-bar-sub-menu .md-button.md-small {
   font-size: 0.75em;
   min-width: 42px;
   font-weight: bold;
+}
+
+prm-user-area-expandable .md-button.user-button {
+  color: #f77a05;
+  font-weight: bold;
+  font-size: large;
+  text-transform: uppercase;
+}
+
++ prm-account-overview .main-institution-list .md-button:hover ._md-list-item-inner.is-selected .institution-name {
+  color: #003874;
+}
++ prm-account-overview .main-institution-list .md-button:hover .md-list-item-inner.is-selected .institution-name {
+  color: #003874;
+}
++ prm-account-overview .md-list .md-button:hover ._md-list-item-inner.is-selected .institution-name {
+  color: #003874;
+}
++ prm-account-overview .md-list .md-button:hover .md-list-item-inner.is-selected .institution-name {
+  color: #003874;
+}
++ prm-account-overview .md-list[class$=-line] .md-button:hover ._md-list-item-inner.is-selected .institution-name {
+  color: #003874;
+}
++ prm-account-overview .md-list[class$=-line] .md-button:hover .md-list-item-inner.is-selected .institution-name {
+  color: #003874;
 }
 
 prm-brief-result .item-title span {
