@@ -1,6 +1,6 @@
 {
   "name": "primo-explore-views",
-  "packageManager": "yarn@3.0.2",
+  "packageManager": "yarn@3.2.0",
   "devDependencies": {
     "@arcticicestudio/eslint-config-base": "0.11.0",
     "@babel/cli": "^7.15.7",
