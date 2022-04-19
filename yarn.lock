@@ -17,7 +17,6 @@ __metadata:
   dependencies:
     "@orbis-cascade/primo-explore-external-search": ^1.2.0
     primo-explore-search-bar-sub-menu: ^1.0.14
-    primo-explore-unpaywall: ^1.4.1
   languageName: unknown
   linkType: soft
 
@@ -2169,9 +2168,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001109, caniuse-lite@npm:^1.0.30001251, caniuse-lite@npm:^1.0.30001254":
-  version: 1.0.30001325
-  resolution: "caniuse-lite@npm:1.0.30001325"
-  checksum: 383a86a513381e3927a30b578ac8616ce388af79dc5dced22e18fffaef17c0bed0e324eadba1b13a6c15b3ec39128fbcfbb097992d3aca206feef5a539c4639f
+  version: 1.0.30001332
+  resolution: "caniuse-lite@npm:1.0.30001332"
+  checksum: e54182ea42ab3d2ff1440f9a6480292f7ab23c00c188df7ad65586312e4da567e8bedd5cb5fb8f0ff4193dc027a54e17e0b3c0b6db5d5a3fb61c7726ff9c45b3
   languageName: node
   linkType: hard
 
@@ -5144,13 +5143,6 @@ fsevents@~2.3.2:
     eslint-plugin-angular:
       optional: true
   checksum: 4c7495321ea0aed12a46b7330333d6cb06cd80edb206bd42361a417c4ad540fa32331e135719455605014343703bcf560c656018fd9b922f8f2e3499a93a9dd8
-  languageName: node
-  linkType: hard
-
-"primo-explore-unpaywall@npm:^1.4.1":
-  version: 1.4.1
-  resolution: "primo-explore-unpaywall@npm:1.4.1"
-  checksum: d19086bfe30ac13f10969ac18a08a039074b419b7592f29d2e9c8020d4832b18b410a9c51b9400edf6735f7504219b9f348ec38ad5e71a09c60e1c5bfe44e213
   languageName: node
   linkType: hard
 
