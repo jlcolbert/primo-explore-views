@@ -1,4 +1,5 @@
-FROM jlcolbert/primo-explore-devenv:latest
+# syntax=docker/dockerfile:!
+FROM primo-explore-devenv
 
 ENV VIEW ${VIEW}
 ENV DEVENV_PATH /app
