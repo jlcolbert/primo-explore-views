@@ -2,21 +2,18 @@
   "name": "primo-explore-views",
   "packageManager": "yarn@3.2.0",
   "devDependencies": {
-    "@arcticicestudio/eslint-config-base": "0.11.0",
-    "@babel/cli": "^7.15.7",
-    "@babel/node": "^7.15.4",
-    "@babel/preset-env": "^7.15.6",
-    "eslint": "7.32.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-import": "2.24.2",
-    "eslint-plugin-prettier": "3.4.1",
-    "prettier": "2.4.1",
-    "stylelint": "^13.13.1",
-    "stylelint-config-sass-guidelines": "^8.0.0",
-    "stylelint-config-standard": "^22.0.0"
+    "@babel/cli": "^7.17.6",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "2.6.2",
+    "stylelint": "^14.7.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^25.0.0"
   },
   "dependencies": {
-    "@babel/core": "^7.15.5"
+    "@babel/core": "^7.17.9"
   },
   "workspaces": [
     "custom/*"
