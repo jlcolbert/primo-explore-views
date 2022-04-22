@@ -7552,7 +7552,7 @@ prm-facet prm-organization-or-facet-toggle .md-button md-switch ._md-thumb {
   background-color: rgba(0, 53, 145, 0.9);
 }
 
-/*Styles for primo-explore-help-menu: MW 20190409 */
+/* Styles for primo-explore-help-menu: MW 20190409 */
 #search-help-menu-content h2 {
   font-weight: 500;
 }
@@ -7564,19 +7564,19 @@ prm-facet prm-organization-or-facet-toggle .md-button md-switch ._md-thumb {
 #search-help-menu-content img {
   border: 2px solid var(--color-secondary-background-dark, #999999);
   border-radius: 4px;
-  max-width: 95%;
   margin: 10px;
+  max-width: 95%;
   padding: 10px;
 }
 
 a.helpMenu--location-button {
-  padding: 6px;
-  background-color: var(--color-button-background, #22647B);
+  background-color: var(--color-button-background, #22647b);
   border-radius: 4px;
-  color: #ffffff;
-  text-transform: uppercase;
   -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, 0.2);
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, 0.2);
+  color: #ffffff;
+  padding: 6px;
+  text-transform: uppercase;
 }
 
 div.helpMenu--location {
@@ -7589,14 +7589,14 @@ help-menu-topbar {
 }
 
 help-menu-topbar .notification-indicator {
-  display: var(--notification-indicator-display, none);
   background-color: var(--notification-indicator-color, red);
-  position: absolute;
-  margin-left: 32px;
-  top: 17px;
-  height: 10px;
-  width: 10px;
   border-radius: 50%;
+  display: var(--notification-indicator-display, none);
+  height: 10px;
+  margin-left: 32px;
+  position: absolute;
+  top: 17px;
+  width: 10px;
 }
 
 prm-facet-exact .section-title prm-icon {

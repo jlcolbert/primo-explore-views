@@ -22,8 +22,7 @@ const Items = [
   {
     id: "tutorials",
     title: "Library Tutorials",
-    description:
-      "at a minimum, links to individual videos and a playlist of existing BULS video tutorials (tbd if in Kaltura, WordPress, or youtube); if possible and desired, embed using Kaltura embed code",
+    description: "UNH Research Guides",
     icon: { code: "shop_two", group: "action" },
     template: `
       <h2>Library Tutorials</h2>
@@ -70,14 +69,14 @@ const Items = [
   {
     id: "whats-in-search",
     title: "What am I searching?",
-    description: `brief description of material types, "scopes", and collections; may have submenus for each of the above; likely also link out to WordPress page with all PCI collections`,
+    description: `How to search for Databases, Journals, Newspapers, and what is included or not included`,
     icon: { code: "toc", group: "action" },
     template: `
       <h2>Databases/Journals</h2>
       <h3>Databases</h3>
       <p>The UNH Library subscribes to many databases. When you perform a search, your results will include items from (most of) those databases.</p>
       <p>While many of the databases are primarily used to find scholarly articles, some databases also provide access to statistics, images and audio, historical documents, and more.</p>
-      <p>You can search the name of a database in the Library Search Box, or you can use our <a href="https://library.unh.edu/find/databases">Databases</a> page to look for and visit specific databases.</p>
+      <p>You can search the name of a database in the Library Search Box, or you can use our <a href="https://libraryguides.unh.edu/az.php">Databases</a> page to look for and visit specific databases.</p>
       <h3>Journals</h3>
       <p>Most of the time, the resources in databases come from journals. You can search in specific journals by using the <a href="https://unh.primo.exlibrisgroup.com/discovery/jsearch?vid=01USNH_UNH:MAIN">Journal Search</a>.</p>
       <p>You can access the Journal Search on the main page of the library's website, or in the top menu links of the Library Search Box.</p>
@@ -101,7 +100,7 @@ const Items = [
   {
     id: "didnt-find",
     title: "Didn't find it?",
-    description: `TBD info about ILL, scope of collections, and problem cases`,
+    description: `info about ILL, scope of collections, and problem cases`,
     icon: { code: "swap_horiz", group: "action" },
     template: `
       <p>Research can be an iterative process. It takes time and patience to figure out the right search to find what you're looking for. When you're having trouble, try these options:<p>
@@ -131,7 +130,7 @@ const Items = [
   {
     id: "guides",
     title: "Research Guides",
-    description: `info about research, subject, course, and how to guides; how to find in BULS by way of search and related more info links; link out to LibGuides home`,
+    description: `general research guides`,
     icon: { code: "directions", group: "maps" },
     template: `
       <h2>Find Your Research Path</h2>
@@ -231,8 +230,7 @@ const Items = [
   {
     id: "ask-us",
     title: "Ask Us",
-    description:
-      "needs definition; how to point to chat? link to ask a librarian?",
+    description: "how to ask a librarian",
     icon: { code: "forum", group: "communication" },
     template: `
       <h2>Ask Us!</h2>
