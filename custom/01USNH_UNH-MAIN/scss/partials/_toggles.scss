@@ -1,0 +1,43 @@
+prm-facet {
+  .switch-results {
+    .md-button {
+      &.active {
+        &.button-as-link {
+          color: #003591;
+        }
+      }
+      md-switch {
+        &.md-checked {
+          .md-bar {
+            color: #003591;
+            background-color: #003591;
+            opacity: 0.4;
+          }
+          .md-thumb {
+            color: #003591;
+            background-color: #003591;
+          }
+          .md-label {
+            color: #003ba2;
+          }
+        }
+        .md-bar {
+          background-color: #cfcfcf;
+        }
+        .md-thumb {
+          background-color: #fff;
+        }
+      }
+      &.button-as-link {
+        &.active {
+          &:hover {
+            &:not([disabled]) {
+              color: #fff;
+              background-color: #003591;
+            }
+          }
+        }
+      }
+    }
+  }
+}

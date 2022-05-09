@@ -7770,3 +7770,29 @@ prm-user-area-expandable .md-button.user-button {
 prm-brief-result .item-title span {
   color: #0044bb;
 }
+
+prm-facet .switch-results .md-button.active.button-as-link {
+  color: #003591;
+}
+prm-facet .switch-results .md-button md-switch.md-checked .md-bar {
+  color: #003591;
+  background-color: #003591;
+  opacity: 0.4;
+}
+prm-facet .switch-results .md-button md-switch.md-checked .md-thumb {
+  color: #003591;
+  background-color: #003591;
+}
+prm-facet .switch-results .md-button md-switch.md-checked .md-label {
+  color: #003ba2;
+}
+prm-facet .switch-results .md-button md-switch .md-bar {
+  background-color: #cfcfcf;
+}
+prm-facet .switch-results .md-button md-switch .md-thumb {
+  background-color: #fff;
+}
+prm-facet .switch-results .md-button.button-as-link.active:hover:not([disabled]) {
+  color: #fff;
+  background-color: #003591;
+}
