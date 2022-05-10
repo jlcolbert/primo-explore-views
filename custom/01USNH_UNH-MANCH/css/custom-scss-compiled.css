@@ -7619,6 +7619,13 @@ prm-facet-range .section-title:hover span {
   color: #001d52;
 }
 
+.multiselect-facet-group.multiselect-inactive .md-chip md-checkbox {
+  -webkit-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  transition: none;
+}
+
 @media (min-width: 1280px) and (max-width: 1919px) {
   .flex-lg-10 {
     -webkit-box-flex: 1;
@@ -7640,7 +7647,6 @@ prm-facet-range .section-title:hover span {
     box-sizing: border-box;
   }
 }
-/* @import "./partials/manch-banner"; */
 div#mainMenu {
   margin-left: 40%;
 }
@@ -7721,3 +7727,5 @@ prm-facet .switch-results .md-button.button-as-link.active:hover:not([disabled])
   color: #fff;
   background-color: #003591;
 }
+
+/* @use "./partials/manch-banner"; */
