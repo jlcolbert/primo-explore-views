@@ -1,15 +1,16 @@
-@import "./manch";
-@import "./partials/button-confirm";
-@import "./partials/container";
-@import "./partials/help-menu";
-@import "./partials/hover";
-@import "./partials/left-spacer";
+@use "./manch";
+@use "./partials/button-confirm";
+@use "./partials/container";
+@use "./partials/help-menu";
+@use "./partials/hover";
+@use "./partials/include-boxes";
+@use "./partials/left-spacer";
 
-/* @import "./partials/manch-banner"; */
+/* @use "./partials/manch-banner"; */
 
-@import "./partials/main-menu";
-@import "./partials/right-spacer";
-@import "./partials/sign-in";
-@import "./partials/titles";
-@import "./partials/toggles";
-@import "./partials/variables";
+@use "./partials/main-menu";
+@use "./partials/right-spacer";
+@use "./partials/sign-in";
+@use "./partials/titles";
+@use "./partials/toggles";
+@use "./partials/variables";
