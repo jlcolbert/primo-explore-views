@@ -16,7 +16,7 @@ const app = angular.module("viewCustom", [
   "searchBarSubMenu",
 ]);
 
-//Set vid value and safe path
+// Set vid value and safe path
 app.vid = "01USNH_UNH:MAIN";
 app.vidPath = "custom/" + app.vid.toString().replace(":", "-");
 

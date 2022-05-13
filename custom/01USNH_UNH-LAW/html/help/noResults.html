@@ -1,0 +1,112 @@
+<md-card class="custom-card zero-margin _md md-primoExplore-theme">
+  <md-card-title>
+    <md-card-title-text>
+      <h2 class="md-headline">Not finding what you're looking for?</h2>
+    </md-card-title-text>
+  </md-card-title>
+  <md-card-content>
+    <p>There are no results matching your search</p>
+    <blockquote><i>{{$ctrl.getSearchTerm()}}</i></blockquote>
+    <p ng-if="$ctrl.pciSetting !== 'true'">
+      <md-button
+        ng-href="search?vid=01USNH_UNH:LAW&tab=Everything&search_scope=MyInst_and_CI&query={{$ctrl.getQuery}}&pcAvailability=true"
+      >
+        <prm-icon
+          icon-type="svg"
+          svg-icon-set="primo-ui"
+          icon-definition="magnifying-glass"
+        ></prm-icon>
+        <b><u>Try searching items you will need to request?</u></b>
+      </md-button>
+    </p>
+    <p>
+      <md-button ng-href="citationlinker?vid=01USNH_UNH:LAW">
+        <prm-icon
+          icon-type="svg"
+          svg-icon-set="primo-ui"
+          icon-definition="magnifying-glass"
+        ></prm-icon>
+        <b><u>Try searching by citation, DOI, PMID, ISBN, or ISSN?</u></b>
+      </md-button>
+    </p>
+    <br />
+    <!-- <prm-lib-chat>
+         <div id="libchat_0d21037d8bcc69a651486fdbdb25b045"></div>
+         </prm-lib-chat>
+         <br /> -->
+    <span class="bold-text">Suggestions:</span>
+    <ul>
+      <li>Check the spelling of your search terms</li>
+      <li>
+        Click
+        <a
+          ng-href="search?vid=01USNH_UNH:LAW&tab=Everything&search_scope=MyInst_and_CI&query={{$ctrl.getQuery}}&pcAvailability=true"
+          ><em>Include items you will need to request</em></a
+        >
+      </li>
+      <li>Try different keywords</li>
+      <li>Try more general keywords</li>
+      <li>Try fewer keywords</li>
+      <!-- <li>
+           Try your search in one of our
+           <a
+           rel="nofollow"
+           ng-href="https://libraryguides.unh.edu/az.php?q="
+           target="_blank"
+           >Databases<prm-icon
+           external-link=""
+           icon-type="svg"
+           svg-icon-set="primo-ui"
+           icon-definition="open-in-new"
+           ></prm-icon
+           ></a>
+           </li> -->
+      <li>
+        Search
+        <a
+          href="https://unhlibrary.on.worldcat.org/search?queryString=kw:{{$ctrl.getSearchTerm()}}"
+          ><img
+            src="/discovery/custom/01USNH_UNH-LAW/img/get-it-worldcat.png"
+          />
+          Books & Media Worldwide</a
+        >
+        for materials we can get for you with Interlibrary Loan
+      </li>
+      <li>
+        Search
+        <a
+          href="https://unh.idm.oclc.org/login?qurl=https%3A//scholar.google.com/scholar?q={{$ctrl.getSearchTerm()}}"
+          ><img src="/discovery/custom/01USNH_UNH-LAW/img/get-it-google.png" />
+          Google Scholar</a
+        >
+        for articles and other scholarly resources
+      </li>
+    </ul>
+    <br />
+    <!-- <prm-lib-guides-az>
+         <div id="s-lg-widget-1652280173965"></div>
+         </prm-lib-guides-az>
+         <br />
+         <div
+         class="s-lg-widget-list-more-results s-lib-greyout pad-top-med pad-left-sm"
+         >
+         <prm-icon
+         icon-type="svg"
+         svg-icon-set="primo-ui"
+         icon-definition="magnifying-glass"
+         ></prm-icon>
+         <a
+         rel="nofollow"
+         ng-href="https://libraryguides.unh.edu/az.php?q="
+         target="_blank"
+         ><span translate="nui.mainmenu.description.Databases"></span>
+         <prm-icon
+         external-link=""
+         icon-type="svg"
+         svg-icon-set="primo-ui"
+         icon-definition="open-in-new"
+         ></prm-icon>
+         </a>
+         </div> -->
+  </md-card-content>
+</md-card>
