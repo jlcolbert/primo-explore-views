@@ -1,14 +1,15 @@
 import "@orbis-cascade/primo-explore-external-search";
+import "primo-explore-lod-author-card";
 import "primo-explore-search-bar-sub-menu";
 
 import ExternalSearchConfig from "./components/externalSearch/externalSearch.config";
 import SearchBarSubMenuConfig from "./components/searchBarSubMenu/searchBarSubMenu.config";
 import PRMSearchBarAfterDirective from "./directives/prmSearchBarAfter.directive";
 
-// eslint-disable-next-line no-undef
 const app = angular.module("viewCustom", [
   "angularLoad",
   "externalSearch",
+  "lodAuthorCard",
   "searchBarSubMenu",
 ]);
 
@@ -31,6 +32,15 @@ app
   .constant("searchBarSubMenuItems", SearchBarSubMenuConfig)
   .component("prmSearchBarAfter", PRMSearchBarAfterDirective)
   .value("searchTargets", ExternalSearchConfig);
+
+/** Linked Data Author Card */
+app.component("prmFullViewAfter", {
+  bindings: { parentCtrl: "<" },
+  template: `<primo-explore-lod-author-card
+    parent-ctrl="$ctrl.parentCtrl">
+  </primo-explore-lod-author-card>`,
+});
+/** END Linked Data Author Card */
 
 /** No Results Page **/
 // https://github.com/SarahZum/primo-explore-custom-no-results/blob/master/js/no-results.js

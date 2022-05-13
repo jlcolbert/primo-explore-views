@@ -16,6 +16,7 @@ __metadata:
   resolution: "01usnh_unh-law@workspace:custom/01USNH_UNH-LAW"
   dependencies:
     "@orbis-cascade/primo-explore-external-search": ^1.2.0
+    primo-explore-lod-author-card: ^0.0.6
     primo-explore-search-bar-sub-menu: ^1.0.14
   languageName: unknown
   linkType: soft
