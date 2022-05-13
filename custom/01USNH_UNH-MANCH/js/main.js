@@ -21,6 +21,10 @@ app
   .component("prmFullViewAfter", PRMFullViewAfterDirective)
   .value("searchTargets", ExternalSearchConfig);
 
+// Set vid value and safe path
+app.vid = "01USNH_UNH:MANCH";
+app.vidPath = "custom/" + app.vid.toString().replace(":", "-");
+
 /** No Results Page **/
 // https://github.com/SarahZum/primo-explore-custom-no-results/blob/master/js/no-results.js
 app.controller("NoSearchResultAfterController", [function () {}]);
@@ -93,8 +97,7 @@ app.component("primoExploreCustomNoResults", {
 //       .getElementById("libchat_0d21037d8bcc69a651486fdbdb25b045")
 //       .parentNode.append($scope.lcWidget);
 //   },
-// ]);
-
+// ])
 /** Insert LibGuides AZ List **/
 app
   .constant(
