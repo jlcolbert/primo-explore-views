@@ -897,3 +897,25 @@ Info 887  [12:19:29.209] Different program with same set of files
 Info 888  [12:19:53.238] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
 Info 889  [12:19:53.246] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 26 structureChanged: false structureIsReused:: Completely Elapsed: 7.313258999958634ms
 Info 890  [12:19:53.246] Different program with same set of files
+Info 891  [12:21:51.888] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 892  [12:21:51.899] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 27 structureChanged: false structureIsReused:: Completely Elapsed: 11.033269001170993ms
+Info 893  [12:21:51.899] Different program with same set of files
+Info 894  [12:24:01.610] Search path: /Users/jaycolbert/Documents/02 Areas/Discovery/primo-explore-views/custom/01USNH_UNH-MANCH/js
+Info 895  [12:24:01.612] For info: /Users/jaycolbert/Documents/02 Areas/Discovery/primo-explore-views/custom/01USNH_UNH-MANCH/js/main.js :: No config files found.
+Info 896  [12:24:01.624] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 897  [12:24:01.748] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 123.77658100053668ms
+Info 898  [12:24:01.748] Project '/dev/null/inferredProject3*' (Inferred)
+Info 899  [12:24:01.748] 	Files (34)
+
+Info 900  [12:24:01.748] -----------------------------------------------
+Info 901  [12:24:01.757] AutoImportProviderProject: found 1 root files in 1 dependencies in 5.723584000021219 ms
+Info 902  [12:24:01.758] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject3*
+Info 903  [12:24:01.959] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject3* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 200.9096159990877ms
+Info 904  [12:24:01.959] Project '/dev/null/autoImportProviderProject3*' (AutoImportProvider)
+Info 905  [12:24:01.960] 	Files (41)
+
+Info 906  [12:24:01.960] -----------------------------------------------
+Info 907  [12:28:36.178] Search path: /Users/jaycolbert/Documents/02 Areas/Discovery/primo-explore-views/custom/01USNH_UNH-MANCH/js/directives
+Info 908  [12:28:36.179] For info: /Users/jaycolbert/Documents/02 Areas/Discovery/primo-explore-views/custom/01USNH_UNH-MANCH/js/directives/prmFullViewAfter.directive.js :: No config files found.
+Info 909  [12:29:04.530] Search path: /Users/jaycolbert/Documents/02 Areas/Discovery/primo-explore-views/custom/01USNH_UNH-MANCH/js/components/lodAuthorCard
+Info 910  [12:29:04.531] For info: /Users/jaycolbert/Documents/02 Areas/Discovery/primo-explore-views/custom/01USNH_UNH-MANCH/js/components/lodAuthorCard/lod-author-card.component.js :: No config files found.
