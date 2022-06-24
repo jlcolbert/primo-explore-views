@@ -7473,28 +7473,6 @@ prm-facet prm-organization-or-facet-toggle .md-button md-switch ._md-thumb {
   color: black;
 }
 
-#advancedSearchTabs {
-  min-height: 700px;
-  overflow: auto;
-}
-
-.string-block .animate-scale .middle {
-  display: none;
-}
-
-.collapsed-area .layout-wrap .layout-align-space-between-center .layout-row {
-  display: none;
-}
-
-prm-advanced-search * > .collapsed-button * > md-icon {
-  display: none;
-}
-
-@media (min-width: 600px) {
-  #advancedSearchTabs {
-    min-height: 400px;
-  }
-}
 /* magnifying glass and load more */
 .md-button.button-confirm {
   color: #263645;
@@ -7681,94 +7659,6 @@ prm-facet-range .section-title:hover span {
 
 div#mainMenu {
   margin-left: 40%;
-}
-
-prm-no-search-result > .default-card {
-  display: none;
-}
-
-prm-lib-guides-az .sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-prm-lib-guides-az .form-control {
-  display: block;
-  width: 100%;
-  height: 34px;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.4286;
-  color: #555;
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
-}
-prm-lib-guides-az .form-inline .form-control {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  width: auto;
-  max-width: 85%;
-  vertical-align: middle;
-}
-prm-lib-guides-az .btn {
-  display: inline-block;
-  margin-bottom: 0;
-  font-weight: 400;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
-  cursor: pointer;
-  background-image: none;
-  border: 1px solid transparent;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.4286;
-  border-radius: 4px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-prm-lib-guides-az .btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc;
-}
-prm-lib-guides-az .pad-top-med {
-  padding-top: 10px;
-}
-prm-lib-guides-az select:focus {
-  outline: none;
-  border-color: #9ecaed;
-  -webkit-box-shadow: 0 0 15px #9ecaed;
-  box-shadow: 0 0 15px #9ecaed;
-}
-prm-lib-guides-az select:hover {
-  background-color: #f3f3f3;
-}
-
-prm-lib-guides-az .margin-left-sm,
-prm-lib-guides-az .pad-left-sm {
-  margin-left: 5px !important;
-}
-
-prm-lib-guides-az .s-lg-no-val,
-prm-lib-guides-az .s-lg-text-greyout,
-prm-lib-guides-az .s-lib-greyout {
-  color: #666;
 }
 
 @media (min-width: 1280px) and (max-width: 1919px) {

@@ -1,5 +1,5 @@
 import "@orbis-cascade/primo-explore-external-search";
-import "primo-explore-lod-author-card";
+// import "primo-explore-lod-author-card";
 import "primo-explore-search-bar-sub-menu";
 
 import ExternalSearchConfig from "./components/externalSearch/externalSearch.config";
@@ -9,7 +9,7 @@ import PRMSearchBarAfterDirective from "./directives/prmSearchBarAfter.directive
 const app = angular.module("viewCustom", [
   "angularLoad",
   "externalSearch",
-  "lodAuthorCard",
+  // "lodAuthorCard",
   "searchBarSubMenu",
 ]);
 
@@ -34,74 +34,74 @@ app
   .value("searchTargets", ExternalSearchConfig);
 
 /** Linked Data Author Card */
-app.component("prmFullViewAfter", {
-  bindings: { parentCtrl: "<" },
-  template: `<primo-explore-lod-author-card
-    parent-ctrl="$ctrl.parentCtrl">
-  </primo-explore-lod-author-card>`,
-});
+// app.component("prmFullViewAfter", {
+//   bindings: { parentCtrl: "<" },
+//   template: `<primo-explore-lod-author-card
+//     parent-ctrl="$ctrl.parentCtrl">
+//   </primo-explore-lod-author-card>`,
+// });
 /** END Linked Data Author Card */
 
 /** No Results Page **/
 // https://github.com/SarahZum/primo-explore-custom-no-results/blob/master/js/no-results.js
-app.controller("NoSearchResultAfterController", [function () {}]);
+// app.controller("NoSearchResultAfterController", [function () {}]);
 
-app.component("prmNoSearchResultAfter", {
-  bindings: {
-    parentCtrl: "<",
-  },
-  require: {
-    prmNoSearchResultAfter: "^prmNoSearchResultAfter",
-  },
-  controller: "NoSearchResultAfterController",
-  templateUrl: `${app.vidPath}/html/angular/prmNoSearchResultAfter.html`,
-});
+// app.component("prmNoSearchResultAfter", {
+//   bindings: {
+//     parentCtrl: "<",
+//   },
+//   require: {
+//     prmNoSearchResultAfter: "^prmNoSearchResultAfter",
+//   },
+//   controller: "NoSearchResultAfterController",
+//   templateUrl: `${app.vidPath}/html/angular/prmNoSearchResultAfter.html`,
+// });
 
-app.controller("PrimoExploreCustomNoResultsController", [
-  "$location",
-  function ($location) {
-    const vm = this;
-    vm.getQuery = $location
-      .search()
-      .query.toString()
-      .replace("AND,", "AND&query=")
-      .replace("OR,", "OR&query=")
-      .replace("NOT,", "NOT&query=");
-    vm.getMode = $location.search().mode;
-    vm.getSearchTerm = getSearchTerm;
-    vm.pciSetting =
-      vm.parentCtrl.searchStateService.searchObject.pcAvailability || "";
+// app.controller("PrimoExploreCustomNoResultsController", [
+//   "$location",
+//   function ($location) {
+//     const vm = this;
+//     vm.getQuery = $location
+//       .search()
+//       .query.toString()
+//       .replace("AND,", "AND&query=")
+//       .replace("OR,", "OR&query=")
+//       .replace("NOT,", "NOT&query=");
+//     vm.getMode = $location.search().mode;
+//     vm.getSearchTerm = getSearchTerm;
+//     vm.pciSetting =
+//       vm.parentCtrl.searchStateService.searchObject.pcAvailability || "";
 
-    function getSearchTerm() {
-      return vm.parentCtrl.term;
-    }
-  },
-]);
+//     function getSearchTerm() {
+//       return vm.parentCtrl.term;
+//     }
+//   },
+// ]);
 
 // Enhance No Results tile
-app.controller("PrmNoSearchResultAfterController", [
-  function () {
-    const vm = this;
-    vm.getSearchTerm = getSearchTerm;
-    vm.pciSetting =
-      vm.parentCtrl.searchStateService.searchObject.pcAvailability || "";
+// app.controller("PrmNoSearchResultAfterController", [
+//   function () {
+//     const vm = this;
+//     vm.getSearchTerm = getSearchTerm;
+//     vm.pciSetting =
+//       vm.parentCtrl.searchStateService.searchObject.pcAvailability || "";
 
-    function getSearchTerm() {
-      return vm.parentCtrl.term;
-    }
-  },
-]);
+//     function getSearchTerm() {
+//       return vm.parentCtrl.term;
+//     }
+//   },
+// ]);
 
-app.component("primoExploreCustomNoResults", {
-  bindings: {
-    parentCtrl: "<",
-  },
-  require: {
-    primoExploreCustomNoResults: "^primoExploreCustomNoResults",
-  },
-  controller: "PrimoExploreCustomNoResultsController",
-  templateUrl: app.vidPath + "/html/help/noResults.html",
-});
+// app.component("primoExploreCustomNoResults", {
+//   bindings: {
+//     parentCtrl: "<",
+//   },
+//   require: {
+//     primoExploreCustomNoResults: "^primoExploreCustomNoResults",
+//   },
+//   controller: "PrimoExploreCustomNoResultsController",
+//   templateUrl: app.vidPath + "/html/help/noResults.html",
+// });
 /** No Results Page **/
 
 // app.controller("LibChatController", [
